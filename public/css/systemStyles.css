@@ -1,0 +1,18 @@
+main {
+    min-height: calc(100vh - 56px)}
+.white{
+    color: white}
+.nav-hover{
+    padding: 5px 10px}
+.nav-hover:hover {
+    background-color: rgb(0, 40, 161); border-radius: 30px}
+.sideLink:hover{
+    background-color: darkgray; border-radius:20px}
+.sideNav{
+    text-align:center; margin: 20px; width: 200px; background-color: #C7C7C7; border-radius: 20px; position: fixed}
+.line{
+    border: solid 1px #E6E6E6; background-color: #E6E6E6; margin: 2% auto 0; width:80%; border-radius: 50px}
+/*Forms from TeamCalendar, TeamInfo, TeamList and TeamScore*/
+.space{
+    margin-bottom:20px}
+/*Form from profileView*/

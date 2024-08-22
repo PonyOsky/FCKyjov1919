@@ -1,0 +1,117 @@
+/*Local*/
+.logo{
+    width: 100px}
+.name{
+    color: white; margin: auto 0}
+.loginIcon{
+    color: white; font-size: 22px}
+.navbarStart{
+    width: 58,5%; height: 100px; display: inline-flex}
+.wide{
+    width: 100%; height: 250px}
+.down{
+    background-color: #373737; color: white}
+.footerTag{
+    list-style-type: none}
+.footerNav{
+    text-align: center; padding: 3%}
+.copy{
+    text-align: center; padding: 0.5% 0%}
+.line{
+    border: solid 1px #E6E6E6; background-color: #E6E6E6; margin: 2% auto 0; width:80%; border-radius: 50px}
+.miniNav{
+    text-align: center; margin: 2% 0}
+.priColor{
+    color: #0d6efd}
+.liMode{
+    list-style-type: none}
+.lGray{
+    background-color: #C7C7C7}
+.heading{
+    text-align: center; font-family: Candara}
+.miniNavText{
+    text-decoration: none}
+/*index - úvodní strana*/
+.TTeam{
+    padding-right: 5px; font-weight: bold}
+.program{
+    border-radius: 5px 40px; padding: 2% 1% 5% 1%}
+.table{
+    font-size: 16px; margin: 0 auto; text-align:center}
+.table td{
+    padding-left: 15px}
+.table tr{
+    padding-bottom: 10px}
+.indexImage{
+    width: 70%; margin: 2% 0}
+.indexText{
+    padding: 1% 2%}
+/*About - o klubu*/
+.mnIcon{
+    margin-right: 1%}
+.logoAbout{
+    width: 200px}
+.CompDevTable{
+    text-align: center; font-size: 16px; margin: 0 auto}
+.competitions{
+    padding-left: 20px}
+.CompDevTable tr{
+    padding-bottom: 8px}
+.programRev{
+    border-radius: 40px 5px; padding: 2% 1% 5% 1%}
+.aboutImg{
+    width: 80%}
+/*Matces - výsledovka*/
+.navImg{
+    width: 80px; border-radius: 5px 40px; padding: 2% 0}
+.hover:hover{
+    background-color: #E6E6E6}
+.hover:after{
+    background-color: #E6E6E6}
+.lineTN{
+    border: solid 1px #E6E6E6; background-color: #E6E6E6; margin: 0 auto; width:100%; border-radius: 50px}
+.iconH{
+    color: white}
+.matchLogo{
+    width: 150px}
+.accText{
+    margin: 2% 0}
+/*Login Form*/
+.backWay{
+    margin: 1% 0; padding: 20px 30PX; border-radius: 0 40px 40px 0; display: inline-block}
+.logPlace{
+    width: 100%; margin: 2% auto}
+.login{
+    width: 400px; padding: 20px;}
+.bGImage{
+    background-image: url(../images/test2-min.jpg)}
+/*Kontakt*/
+.cont-col{
+    margin: 2% auto; text-align: center}
+.navImgOff{
+    width: 80px; border-radius: 5px 40px; padding: 2% 0; margin-right: 10px}
+.map{
+    width: 400px; height: 400px}
+@media only screen and (max-width: 500px) {
+.footerNav{
+    font-size: 12px}
+.map{
+    width: 300px; height: 300px}
+}
+@media only screen and (max-width: 690px) {
+.inVisi{
+    display: none}
+.offVisi{
+    padding: 5px 5px; border-radius: 0 20px 20px 0}
+.offVisi:hover{
+    padding: 8px 8px}
+}
+@media only screen and (min-width: 690px) {
+.offVisi{
+    display: none}
+}
+
+/*HEADER - 366. FOOTER - 127.63*/
+main {
+    min-height: calc(100vh - 366px - 145px);
+}
